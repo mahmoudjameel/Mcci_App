@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Mcci App",
+    "slug": "Mcci App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/tabLogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logogif.gif",
+      "resizeMode": "contain",
+      "backgroundColor": "#fcfcfc"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logogif.gif",
+        "backgroundColor": "#fcfcfc"
+      }
+    },
+    "web": {
+      "favicon": "./assets/tabLogo.png"
+    }
+  }
+}
